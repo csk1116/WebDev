@@ -1,0 +1,53 @@
+
+* {
+	text-align: right;
+}
+
+body {
+	background-image: url(background-image.jpg);
+	background-size: cover;
+}
+
+h2, P {
+	color: #FFB0AA;
+	text-align: center;
+	border: 5px solid blueviolet;
+	cursor: pointer;
+}
+
+p {
+	color: pink;
+}
+
+li {
+	list-style: none;
+	display: inline-block;
+}
+
+.webtext {
+	border: 10px dashed blue;
+}
+
+.active {
+	color: red;
+}
+
+#div1 {
+	background: rgba(0, 200, 0, 0.3);
+}
+
+#div2 {
+	background: rgba(0, 200, 200, 0.3);
+}
+
+#div2 p:last-child {
+	line-height: 50px;
+	color: black;
+	font-weight: bold;
+	font-family: 'Orbitron', sans-serif;
+	font-size: 200%;
+}
+
+img {
+	float: left;
+}
